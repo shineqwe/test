@@ -1,0 +1,12 @@
+{
+    "require": {
+        "allure-framework/allure-codeception": "^1.4"
+    },
+
+    "autoload": {
+        "psr-4": {
+            "Page\\": "/tests/_support/Page"
+        },
+        "files": ["/tests/_support/Page/MyCustomExtension.php"]
+    }
+}
